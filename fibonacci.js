@@ -6,7 +6,6 @@ function fibonacci(index) {
     for (var x = 1; x < index; x++) {
         let old = list;
         list = [old[1], old[1] + old[0]];
-        console.log(list)
     }
     return list[1];
 }
