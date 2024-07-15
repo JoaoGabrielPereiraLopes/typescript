@@ -1,0 +1,1 @@
+console.log([1,2,1,1,3].fill(1))
