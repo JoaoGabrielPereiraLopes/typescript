@@ -3,7 +3,8 @@ function squares(start:number,end:number):number[]{
     if(start<0||start>end){
         throw Error("values incorrect");
     }
-    for(;(start**1/2)%1!=0;start++){}
+    for(;(start**(1/2))%1!=0;start++){}
+    console.log(start)
     for(let x=start;x**2<end;x++){
         values.push(x**2)
     }
